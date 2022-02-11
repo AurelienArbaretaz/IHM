@@ -1,1 +1,12 @@
-<p>contact-form works!</p>
+<body>
+    Mail : <input type="text" [(ngModel)]="mail"> <br>
+    Content : <br> <textarea type="text" [(ngModel)]="content"></textarea> <br>
+    <button (click)="send()">Send</button>
+    <p id="error" *ngIf="isError">{{error}}</p>
+    <div *ngIf="IsSend">
+        <p id="success">Merci pour votre message !</p>
+        <p>Votre mail : <strong>{{mailSend}}</strong></p>
+        <p>Votre message : </p>
+        <p id="content">{{contentSend}}</p>
+    </div>
+</body>

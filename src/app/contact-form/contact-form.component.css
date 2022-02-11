@@ -1,0 +1,39 @@
+body {
+    margin: 1%;
+}
+input {
+    border: 1px solid;
+    border-radius: 5px;
+ width: 20%;
+ margin-left: 20px;
+ margin-bottom: 1%;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 1px solid;
+    overflow: hidden;
+    min-height: 200px;
+    width: 90%;
+}
+
+button {
+    position: absolute;
+    right: 11%;
+    border-radius: 20px;
+    border: solid 2px rgb(70,70,70);
+    width: 10%;
+    height: 40px;
+    font-size: large;
+    background-color: white;
+    color: rgb(70,70,70);
+}
+button:hover {
+    background-color: rgb(70,70,70);
+    color: white;
+}   
+
+#content {
+    border: 1px solid;
+    border-radius: 5px;
+}

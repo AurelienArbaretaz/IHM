@@ -1,5 +1,7 @@
 [
    {"id": 1,"name": "Aurel"}, 
-   {"id": 2,"name": "Aurel2"}    
+   {"id": 2,"name": "Aurel2"},
+   {"id": 3,"name": "Max"}, 
+   {"id": 4,"name": "Max2"}  
 ]
    

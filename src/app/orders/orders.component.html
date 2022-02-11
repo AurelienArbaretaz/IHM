@@ -1,11 +1,10 @@
-<h2>Orders</h2>
-  <li *ngFor="let order of orders | async"
-  [class.selected]="order === selectedOrder"
-    (click)="onSelect(order)"
-    >
+<body>
+  <h2>Orders</h2>
+  <li *ngFor="let order of orders | async" [class.selected]="order === selectedOrder" (click)="onSelect(order)">
     <span class="badge">{{order.id}}</span> {{order.name}}
   </li>
-<div *ngIf="selectedOrder">
-  <h2>{{selectedOrder.name | uppercase}} Details</h2>
-  <div><span>id: </span>{{selectedOrder.id}}</div>
-</div>
+  <div *ngIf="selectedOrder">
+    <h2>{{selectedOrder.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{selectedOrder.id}}</div>
+  </div>
+</body>

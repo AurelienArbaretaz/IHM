@@ -1,3 +1,4 @@
+<body>
 <h2>Products</h2>
   <li *ngFor="let product of products | async"
   [class.selected]="product === selectedProduct"
@@ -9,3 +10,4 @@
   <h2>{{selectedProduct.name | uppercase}} Details</h2>
   <div><span>id: </span>{{selectedProduct.id}}</div>
 </div>
+</body>

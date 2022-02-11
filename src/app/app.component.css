@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-size: cover;
+    position: fixed;
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+#navBar {
+    box-shadow: 0px 5px 5px grey;
+    margin-bottom: 2%;
+}
+H1 {
+    padding-left: 1%;
+    width: 25%;
+    color: rgb(237, 79, 80);
+    margin: 0%;
+    border-bottom: 2px solid ;
+}
+nav {
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+ul, li {
+    right: 10px;
+    display: inline;
+    padding: 5%;
+}
+a {
+    color: rgb(70,70,70);
+    font-size:x-large;
+    font-weight: 900;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

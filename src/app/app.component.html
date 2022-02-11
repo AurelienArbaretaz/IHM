@@ -1,13 +1,20 @@
-<h1>Angular Router App</h1>
+<html>
 
-<nav>
-  <ul>
-    <li><a routerLink="/products" routerLinkActive="active">List Products</a></li>
-    <li><a routerLink="/users" routerLinkActive="active">List Users</a></li>
-    <li><a routerLink="/orders" routerLinkActive="active">List Orders</a></li>
-    <li><a routerLink="/contact-form" routerLinkActive="active">Contact Form</a></li>
+<body>
+  <div id="navBar">
+  <h1>Angular Router App</h1>
 
-  </ul>
-</nav>
+  <nav>
+    <ul>
+      <li><a routerLink="/products" routerLinkActive="active">List Products</a></li>
+      <li><a routerLink="/users" routerLinkActive="active">List Users</a></li>
+      <li><a routerLink="/orders" routerLinkActive="active">List Orders</a></li>
+      <li><a routerLink="/contact-form" routerLinkActive="active">Contact Form</a></li>
 
-<router-outlet></router-outlet>
+    </ul>
+  </nav>
+</div>
+  <router-outlet></router-outlet>
+</body>
+
+</html>
